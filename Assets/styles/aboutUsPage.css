@@ -1,0 +1,29 @@
+.aboutUsArticle {
+  align-items: center;
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+.aboutUsArticle h1 {
+  color: var(--pink);
+  font-size: 6rem;
+  text-shadow: 0rem 1rem 2rem rgba(128, 0, 128, 0.259);
+}
+
+.aboutUsArticle p {
+  width: 60%;
+  color: var(--pink);
+  font-size: 2.5rem;
+  text-shadow: 0rem 1rem 2rem rgba(128, 0, 128, 0.259);
+}
+
+@media screen and (max-width: 426px) {
+  .aboutUsArticle h1 {
+    margin-bottom: 2rem;
+  }
+
+  .aboutUsArticle p {
+    margin-top: 0.5rem;
+    width: 80%;
+  }
+}
